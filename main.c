@@ -62,6 +62,7 @@ int main()
     case 1:
         printf("Wpisz liczbe jaka chcesz dodac: ");
         scanf("%i", &amp;number);
+        printf("Zmiana");
         push_front(&amp;head, number);
         break;
      case 2:
